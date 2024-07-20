@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shopnowpage</title>
+        <link rel="Stylesheet" href="Stylesheet4.css">
+    </head>
+    <body>
+       
+
+
+        </div>
+        <div class="winea">
+            <nav>
+                <div class="wineb">
+                    <p> O&nbsp;A&nbsp;K&nbsp;&nbsp; R&nbsp;O&nbsp;A&nbsp;D&nbsp;&nbsp; E&nbsp;S&nbsp;T&nbsp;A&nbsp;T&nbsp;E</p>
+                </div>
+                <div class="winec">
+                    <ul>
+                        <li><a href="jjjjj">HOME</a></li>
+                        <li><a href="jjjjj">ARTICLES</a></li>
+                        <li><a href="jjjjj">MORE</a></li>
+                        
+                    </ul>
+                </div>
+            </nav>
+            <div class="information">
+                <div class="overlay"></div>
+                <img src="images/75.png" class="wineu" width="300px">
+                <div id="circle">
+                <div class="feature t">
+                   
+                    <div>
+                        <h1>REDS</h1>
+                        <p>OAK ROAD ESTATE</p>
+                    </div>
+                </div>
+                <div class="feature y">
+                    
+                    <div>
+                        <h1>WHITES</h1>
+                        <p>OAK ROAD ESTATE</p>
+                    </div>
+                </div>
+                <div class="feature u ">
+                    
+                    <div>
+                        <h1>SPARKLING</h1>
+                        <p>OAK ROAD ESTATE</p>
+                    </div>
+                </div>
+                <div class="feature i">
+                    
+                    <div>
+                        <h1>MIXED CASES</h1>
+                        <p>OAK ROAD ESTATE</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="controls">
+                <img src="images/333.png" width="25px"id="UPA" >
+                <h3>Features</h3>
+                <img src="images/111.png" id="Da" width="15px">
+            </div>
+  
+        </div>
+
+
+       <script>
+           var circle = document.getElementById("circle");
+           var UPA = document.getElementById("UPA");
+           var Da = document.getElementById("Da");
+
+           var rvalue= circle.style.transform;
+           var rsum;
+
+           UPA.onclick = function(){
+               rsum = rvalue + "rotate(-90deg)";
+               circle.style.transform = rsum;
+               rvalue = rsum
+           }
+           Da.onclick = function(){
+               rsum = rvalue + "rotate(90deg)";
+               circle.style.transform = rsum;
+               rvalue = rsum
+           }
+       </script>
+
+    </body>
+</html>

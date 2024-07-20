@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="Stylesheet" href="Mainpage.css">   
+</head>
+<body>
+ 
+    <section class="showcase">
+        <header>
+          <h2 class="logo">O&nbsp;A&nbsp;K&nbsp;&nbsp; R&nbsp;O&nbsp;A&nbsp;D&nbsp;&nbsp; E&nbsp;S&nbsp;T&nbsp;A&nbsp;T&nbsp;E</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="images/mainvideo.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>Wine is Bottled Poetry</h2> 
+          <h3>Never Stop Enjoy Your Life <br>With Little Wine</h3>
+          <p>Wines with full, pleasant flavours that are sweet and 'rounded' in 
+            nature are described as rich. In dry wines, richness may come from high alcohol,
+             by complex flavours or by an oaky vanilla character.
+              Decidedly sweet wines are also described as rich when 
+              the sweetness is backed up by fruity, ripe flavours..</p>
+          <a href="FirstSemsterProject.html">Explore</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="FirstSemsterProject.html">Home</a></li>
+          <li><a href="login page.html">Login</a></li>
+          <li><a href="signuppage.html">Sign Up</a></li>
+          <li><a href="searchpage.html">Search</a></li>
+          <li><a href="product_page.html">Shop Now</a></li>
+        </ul>
+      </div>
+      <script>
+
+      const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+</body>
+</html>

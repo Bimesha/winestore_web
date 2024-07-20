@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(425.jpg);
+    background-size: cover;
+}
+
+.winea{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    
+}
+nav{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    top: 0%;
+    height: 100px;
+    font-weight: bold;
+    align-content: center;
+    
+}
+.wineb{
+    
+    font-size: 48px;
+    color: rgb(244, 255, 255);
+    align-content: center;
+    color: black;
+
+  }
+    
+.wineb img{
+    width: 150px;
+}
+.winec{
+    flex: 1;
+    text-align: right;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    color: #e99c9c;
+
+}
+.winec ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}
+.winec ul li a{
+    color: #e99c9c;
+    text-decoration: none;
+}
+.information{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    color: black;
+
+}
+#circle{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: 1s;
+    border-color: #e99c9c;
+    border-style: dotted;
+  
+   
+
+}
+.feature img{
+    width: 70px;
+
+}
+.feature{
+    position: absolute;
+    display: flex;
+    color: rgb(119, 194, 112);
+}
+.feature div{
+    margin-left: 30px;
+}
+.feature mdiv p{
+    margin-top: 8px;
+}
+.t{
+    top: 450px;
+    right: 50px;
+    color:#e99c9c;
+    font-size: 25px;
+    font-family: 'Fraunces', serif;
+    line-height: 5px;
+}
+.y{
+    top: 150px;
+    left: 350px;
+    transform: rotate(-90deg);
+    color:#e99c9c;
+    font-size: 24px;
+    font-family: 'Fraunces', serif;
+    line-height: 5px;
+}
+.u{
+    bottom: 450px;
+    left: 50px;
+    transform: rotate(-180deg);
+    color:#e99c9c;
+    font-size: 22px;
+    font-family: 'Fraunces', serif;
+    line-height: 5px;
+    
+
+}
+.i{
+    bottom: 150px;
+    right: 350px;
+    transform: rotate(-270deg);
+    color:#e99c9c;
+    font-size: 22px;
+    font-family: 'Fraunces', serif;
+    line-height: 5px;
+ 
+    
+}
+.wineu{
+    width: 350px;
+    height: 470px;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%);
+    z-index: 1;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.controls{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.controls h3{
+    margin: 15px 0;
+    color: #e99c9c;
+    font-size: 25px;
+}
+#UPA{
+    width: 20px;
+    cursor: pointer;
+}
+#Da{
+    width: 15px;
+    cursor: pointer;
+    
+}
+.overlay{
+    width: 0;
+    height: 0;
+    border-top: 500px solid #e99c9c;
+    border-right: 500px solid transparent;
+    border-bottom: 500px solid #e99c9c;
+    border-left: 500px solid #e99c9c;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}

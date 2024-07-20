@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+                                  /* navigation part/wholepart*/
+
+
+.wineA{
+    background-color: rgb(54, 54, 70);
+    color: white;
+    font-size: 50px;
+}
+.winea{
+    font-size: 50px;
+}
+.wineB{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    line-height: 0%;
+}
+.wineBb{
+    font-size: 50px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.wineC{
+    font-size:20px ;
+}
+
+.tablef{
+    color: rgb(19, 2, 2);
+    font-size: 20px;
+}
+a{
+    color:white;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+                                       /*2ndpart*/
+.details{
+    background: black;
+    color: rgb(72, 74, 85);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+                                       /*3rdpart/video*/
+.container{
+    color: rgb(0, 0, 0);
+    position: relative;
+    text-align: center;
+    background-color: black;
+}
+.boxs{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    top: 69%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -70%);
+    font-weight: 500;
+    width: 700px;
+    height: 550px;
+    background-color: rgba(199, 186, 186, 0.5);
+}
+.boxs h1{
+    font-size:80px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+                                         /*4thpart/text1*/
+
+.text{
+    font-family: 'Fraunces', serif;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    line-height: 10%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+                                       /* 5thpart/text2*/
+.svgg{
+   line-height: 0;
+}
+.svg_upper{
+    bottom: 150px;
+}
+.winerss{
+    font-size: 32px;
+    font-family: 'Fraunces', serif;
+    color: rgb(77, 73, 73);
+    font-weight: bold;
+    line-height: 44px;
+    text-align: center;
+}
+
+                                      /*6thpart/the cards*/
+.mainss{
+    margin: 2;
+}   
+.card{
+    width: 20%;
+    display: inline-block;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    margin: 2%;
+}
+   
+   .image img{
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+    }
+   
+   .title{
+     text-align: center;
+     padding: 10px;
+    }
+   
+   h1{
+     font-size: 20px;
+    }
+   
+   .des{
+    padding: 3px;
+    text-align: center;
+    padding-top: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+   }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+
+
+             /*7thpart*/
+
+.boxe{
+    width: 420px;
+    height: 420px;
+    background:rgba(110, 80, 80, 0.5);
+    color: #fff;
+    top: 80%;
+    left: 80%;
+    position: absolute;
+    transform: translate(-50%, -70%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.boxe h1{
+    font-size: 50px;
+    color: lightcoral;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.boxe p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: rgb(240, 223, 223);
+}
+
+
+                  /*8thpat/text3*/
+.winer{
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    line-height: 44px;
+    text-align: center;
+}
+.winer h1{
+    font-size: 40px;
+    font-family: Segoe UI Light;
+}
+.winer p{
+    font-size: 32px;
+    color: rgb(170, 77, 77);
+    font-family: Gabriola;
+    line-height: 50px;
+    font-style: italic;
+}
+.winer h2{
+    font-size: 25px;
+    color: #6b6b6b;
+    font-family: cursive;
+    line-height: 50px;
+}
+
+              /*9thpart/2ndcard set*/
+  
+.main{
+    text-align: center;
+}    
+ /*10thpart*/
+
+.boxr{
+    width: 520px;
+    height: 670px;
+    background:rgba(7, 5, 5, 0.4);
+    color: #fff;
+    top: 60%;
+    left: 30%;
+    position: absolute;
+    transform: translate(-50%, -70%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+.boxr h1{
+    font-size: 60px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 700;
+}
+.boxr p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fraunces', serif;
+    font-style: oblique;
+    color: rgb(166, 190, 28);
+}
+.poetry{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(70, 18, 18);
+    font-family: 'Fraunces', serif;
+    letter-spacing: 20px;
+}
+
+/*11thpart/lastpart*/
+.lastpart{
+    text-align: center;
+}
+.tablew{
+    color: white;
+    height: 50px;
+    background-color: #666;
+    height: 250px;
+    position: absolute;
+    background: #666; /* Black background with 0.5 opacity */
+    width: 100%;
+    padding: auto;
+    font-family: 'Fraunces', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.tablew a{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.tablew a:hover{
+    color: rgb(0, 0, 0);
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 30px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}

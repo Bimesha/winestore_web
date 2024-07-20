@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-image: url(6mixed.jpg)
+}
+                                  /* navigation part/wholepart*/
+
+
+.wineA{
+    background-color: rgb(54, 54, 70);
+    color: white;
+    font-size: 50px;
+}
+.winea{
+    font-size: 50px;
+}
+.wineB{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    line-height: 0%;
+}
+.wineBb{
+    font-size: 50px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.wineC{
+    font-size:20px ;
+}
+
+.tablef{
+    color: rgb(19, 2, 2);
+    font-size: 20px;
+}
+a{
+    color:white;
+    font-size: 40px;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+                                       /*2ndpart*/
+.details{
+    background: black;
+    color: rgb(72, 74, 85);
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mainss{
+    text-align: center;
+    height: 75px;
+    top: 42%;
+    font-size: 80px;
+    position: absolute;
+    color: #000000;
+    width: 100%;
+    padding: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mainss h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.mainss p{
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 6s steps(29) infinite alternate;
+    border-right: 3px solid;
+    font-size: 50px;
+    font-weight: 500;
+    color: rgb(226, 238, 240);
+}
+@keyframes text{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 29ch;
+    }
+}
+
+
+
+
+
+/*card/4th part*/
+.main{
+
+    margin: 2%;
+    text-align: center;
+   }
+   
+   .card{
+        width: 20%;
+        display: inline-block;
+        box-shadow: 2px 2px 20px black;
+        border-radius: 5px; 
+        margin: 2%;
+        text-align: center;
+        background-color: rgb(235, 188, 210);
+        
+       }
+   
+   .image img{
+     width: 30%;
+     text-align: center;
+     border-top-right-radius: 3px;
+     border-top-left-radius: 3px;
+    }
+   
+   .title{
+    
+     text-align: center;
+     padding: 3px;
+     
+    }
+   
+   h1{
+     font-size: 18px;
+     font-family: Castellar;
+     font-weight: 1000;
+    }
+   
+   .des{
+     padding: 2px;
+     text-align: center;
+     padding-top: 1px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     font-family: Constantia;
+     font-size: 18px;
+     color: crimson;
+  }
+   button{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: white;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   button:hover{
+     background-color: black;
+     color: white;
+     transition: .5s;
+     cursor: pointer;
+   }
+   .rating img{
+       height: 25px;
+   }
+
+   /*lastpart*/
+.lastpart{
+    text-align: center;
+}
+.tablew{
+    color: white;
+    height: 50px;
+    background-color: #666;
+    height: 250px;
+    position: absolute;
+    background: #666; /* Black background with 0.5 opacity */
+    width: 100%;
+    padding: auto;
+    font-family: 'Fraunces', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.tablew a{
+    color:white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.tablew a:hover{
+    color: rgb(0, 0, 0);
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 30px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
